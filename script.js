@@ -12,11 +12,11 @@ class Person {
                     return this.age;
 	}
 
-	set age(age){
-             this.age = age;
+	set age(value){
+             this.age = value;
 	}
-	set name(name){
-             this.name = name;
+	set name(value){
+             this.name = value;
 	}
 }
 
